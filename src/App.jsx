@@ -6,10 +6,11 @@ import About from './pages/ABOUT'
 import Contact from './pages/CONTACT';
 import ContactUs from './pages/CONTACT';
 import Services from './pages/SERVICES';
+import NotFound from './components/NotFound';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/techlinx">
       <Routes>
         <Route path='/' index element={<Home/>}/>
         <Route path='/home' element={<Home/>}/>
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/services' element={<Services/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/contactus' element={<ContactUs/>}/>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   )
