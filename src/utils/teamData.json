@@ -1,0 +1,51 @@
+{
+    "data" : [
+    {
+        "id":"1",
+        "name": "Ranjith Repala",
+        "role": "CEO",
+        "image": "images/favicon.jpeg"
+    },
+    {
+        "id":"2",
+        "name": "Ch Vijay Krishna",
+        "role": "Dev Manager",
+        "image": "images/vijay.JPG"
+    },
+    {
+        "id":"3",
+        "name": "Sainath Anantha",
+        "role": "Delivery Manager",
+        "image": "images/sainath.JPG"
+    },
+    {
+        "id":"4",
+        "name": "Surya Prakash",
+        "role": "Integrations Manager",
+        "image": "images/surya.JPG"
+    },
+    {
+        "id":"5",
+        "name": "Ravinder Katla",
+        "role": "Delivery Manager",
+        "image": "images/ravindra.JPG"
+    },
+    {
+        "id":"6",
+        "name": "Phanindar Gajawada",
+        "role": "Scrum Master",
+        "image": "images/phani.JPG"
+    },
+    {
+        "id":"7",
+        "name": "Kiran Kolavennu",
+        "role": "Scrum Master",
+        "image": "images/kiran.JPG"
+    },
+    {
+        "id":"8",
+        "name": "Surisetti Srinivas",
+        "role": "Scrum Master",
+        "image": "images/surisetti.JPG"
+    }
+]}
