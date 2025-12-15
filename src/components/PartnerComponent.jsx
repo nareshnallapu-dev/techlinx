@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Grid, Box, Typography, Button } from '@mui/material';
 import Marquee from 'react-fast-marquee'
 import PartnerList from './PartnerList'
+import MyData from '../data/myData.json'
 
 const PartnerComponent = () => {
   return (
@@ -14,7 +15,7 @@ const PartnerComponent = () => {
               Our Work in Action
             </Typography>
             <Typography variant="body2" component="p" className='' sx={{ mb: 3, color: 'text.secondary' }}>
-              From complex platform rollouts to seamless hiring engines—see <br/> how we’ve helped high-growth companies transform their talent technology.
+              From large-scale HR platform implementations to seamless talent acquisition ecosystems, <br/>we help enterprises unlock the full potential of their HR technology investments.
             </Typography>
           </Grid>
         </Grid>

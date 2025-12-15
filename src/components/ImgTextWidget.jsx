@@ -10,7 +10,7 @@
     import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
     import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
 
-    function ImgTextWidget({title, text, btnText, ImgBanner, point1, point2, point3}) {
+    function ImgTextWidget({title, text, ImgBanner, point1, point2, point3, point4, point5}) {
           const animateRef = useRef(null)
           const animateRef1 = useRef(null)
           const animateRef2 = useRef(null)
@@ -31,7 +31,7 @@
           <Grid container spacing={4} alignItems="center">
             {/* Text Column */}
             <Grid item size={{ xs: 12, md: 7 }}>
-              <Typography ref={animateRef} variant="h3" component="h3" gutterBottom sx={{ fontWeight: '700',
+              <Typography ref={animateRef} variant="h4" component="h4" gutterBottom sx={{ fontWeight: '700',
               transform: 'translateX(-20px)'}}>
                 {title}
               </Typography>
@@ -48,10 +48,13 @@
                       <ListItem variant='body1' component='p' sx={{ mb:0, color: 'text.secondary',}}>
                         <RadioButtonCheckedIcon  fontSize='5px'/>&nbsp; {point3}
                       </ListItem>
+                      <ListItem variant='body1' component='p' sx={{ mb:0, color: 'text.secondary',}}>
+                        <RadioButtonCheckedIcon  fontSize='5px'/>&nbsp; {point4}
+                      </ListItem>
+                      <ListItem variant='body1' component='p' sx={{ mb:0, color: 'text.secondary',}}>
+                        <RadioButtonCheckedIcon  fontSize='5px'/>&nbsp; {point5}
+                      </ListItem>
                 </List>
-              <Button variant="contained" ref={animateRef2} color="primary" sx={{opacity: 0}}>
-                {btnText}
-              </Button>
             </Grid>
 
             {/* Image Column */}

@@ -5,7 +5,7 @@
     import { useGSAP } from "@gsap/react"
     import { useRef } from "react"
 
-    function ImgBannerComponent({title, text, btnText, ImgBanner}) {
+    function ImgBannerComponent({title, text, ImgBanner}) {
           const animateRef = useRef(null)
           const animateRef1 = useRef(null)
           const animateRef2 = useRef(null)
@@ -33,9 +33,6 @@
               <Typography ref={animateRef1} variant="body1" sx={{ mb:3, color: 'text.secondary', opacity: 0}}>
                 {text}
               </Typography>
-              <Button variant="contained" ref={animateRef2} color="primary" sx={{opacity: 0}}>
-                {btnText}
-              </Button>
             </Grid>
 
             {/* Image Column */}

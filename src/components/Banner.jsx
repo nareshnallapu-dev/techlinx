@@ -47,13 +47,13 @@ import { Container } from '@mui/material';
               px: 0,
             },}}>
             <Grid item size={{md:4, xs: 12}} sx={{display: 'flex'}}>
-              <ImgMediaCard CardImg={PlanningImg} cardTitle={'Initiation & Planning'} cardText={'Empowering Innovation with Expert Implementation.'}/>
+              <ImgMediaCard CardImg={PlanningImg} cardTitle={'Enterprise Solutioning & Architecture'} cardText={'We assess your hiring workflows, integration landscape, and regional requirements to design a solution aligned with enterprise governance, scalability, and compliance needs.'}/>
             </Grid>
             <Grid item size={{md:4, xs: 12}}>
-              <ImgMediaCard CardImg={developmentImg} cardTitle={'Execution & Development'} cardText={'Transforming ideas into reality through seamless execution and development.'}/>
+              <ImgMediaCard CardImg={developmentImg} cardTitle={'Platform Implementation & Integrations'} cardText={'From ATS, CRM, onboarding, and career sites to complex integrations, we deliver seamless HR tech implementations with precision and speed.'}/>
             </Grid>
             <Grid item size={{md:4, xs: 12}}>
-              <ImgMediaCard CardImg={maintananceImg} cardTitle={'Testing & Maintenance'} cardText={'Ensuring excellence through rigorous testing and ongoing maintenance.'}/>
+              <ImgMediaCard CardImg={maintananceImg} cardTitle={'HR Tech Support & Optimization'} cardText={'We ensure platform stability through rigorous testing, proactive support, and continuous optimization - keeping your HR systems reliable and future-ready.'}/>
             </Grid>
           </Grid>
           </Container>

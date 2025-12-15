@@ -13,25 +13,41 @@ import LOGO from '../assets/logo.jpg'
 import { NavLink } from 'react-router';
 
 
-const pages = [{
+const pages = [
+        {
           title: 'Home',
           pageUrl: '/',
           id:1
         },
-        {
-          title: 'About Us',
-          pageUrl: '/about',
-          id:2,
+        /**{
+          title: 'Phenom Solutions',
+          pageUrl: '/phenom-solutions',
+          id:2
         },
         {
-          title: 'Our Services',
-          pageUrl: '/services',
+          title: 'AI Automation',
+          pageUrl: '/automation',
           id:3,
         },
         {
-          title: 'Contact Us',
-          pageUrl: '/contact',
+          title: 'Integrations',
+          pageUrl: '/integrations',
           id:4,
+        },
+        {
+          title: 'Managed Services',
+          pageUrl: '/managed-services',
+          id:5,
+        },
+        {
+          title: 'About Techlinx',
+          pageUrl: '/about',
+          id:6,
+        },**/
+        {
+          title: 'Contact',
+          pageUrl: '/contact',
+          id:7,
         },
 ];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
