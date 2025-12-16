@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 import { Container, Grid, Box, Typography, Button } from '@mui/material';
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
@@ -6,6 +7,7 @@ import { useRef } from "react"
 
 
 const ImageBanner = ({title, text, btnText, widgetImg}) => {
+  const navigate = useNavigate()
       const animateRef = useRef(null)
       const animateRef1 = useRef(null)
       const animateRef2 = useRef(null)
@@ -52,7 +54,7 @@ const ImageBanner = ({title, text, btnText, widgetImg}) => {
             <Typography variant="body1" sx={{ mb:3, color: 'text.secondary' }}>
               {text}
             </Typography>
-            <Button variant="contained" color="primary">
+            <Button variant="contained" color="primary" onClick={() => navigate('/about')}>
               {btnText}
             </Button>
           </Grid>
