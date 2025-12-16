@@ -38,12 +38,12 @@ const pages = [
           title: 'Managed Services',
           pageUrl: '/managed-services',
           id:5,
-        },
+        },**/
         {
           title: 'About Techlinx',
           pageUrl: '/about',
           id:6,
-        },**/
+        },
         {
           title: 'Contact',
           pageUrl: '/contact',

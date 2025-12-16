@@ -70,7 +70,6 @@ const Contact = () => {
   });
   return <>
     <Layout>
-      <Breadcrumb currentPage={'Contact Us'}/>
       <Box sx={{background: `url(${AbstractBg})`, py:8}}>
         <Container>
           <Grid container spacing={4}>

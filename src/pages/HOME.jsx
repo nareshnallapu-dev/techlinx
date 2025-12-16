@@ -6,6 +6,7 @@ import parse from "html-react-parser"
 const ImageBanner = lazy(() => import('../components/ImageBanner'));
 import ImgBannerComponent from "../components/ImgBannerComponent"
 import PartnerComponent from "../components/PartnerComponent"
+import ScrollToTop from '../components/scrollToTopButton'
 import ImgTextWidget from '../components/ImgTextWidget';
 import Layout from "../Layout/Layout"
 import ImgBanner from '../assets/banner3.avif'
@@ -26,7 +27,7 @@ const Home = () => {
             />
             <PartnerComponent/>
             <ImgTextWidget title={'Our Services'} btnText={'Reach Us'} ImgBanner={ServicesImg} point1={'HR Platform Implementations (ATS, CRM, Career Sites, Onboarding)'} point2={'HR Systems Integrations (HRIS, Job Boards, Assessments)'} point3={'Talent Experience OptimizationTalent Experience Optimization'} point4={'HR Automation & Workflow Enablement'} point5={'Quality Assurance & Managed Support'}/>
-            
+        <ScrollToTop />
         </Layout>
     </>
 }

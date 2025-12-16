@@ -26,8 +26,10 @@
           <Grid container spacing={4} alignItems="center">
             {/* Text Column */}
             <Grid item size={{ xs: 12, md: 7 }}>
-              <Typography ref={animateRef} variant="h3" component="h3" gutterBottom sx={{ fontWeight: '700',
-              transform: 'translateX(-20px)'}}>
+              <Typography ref={animateRef} variant="h3" component="h2" gutterBottom sx={{ fontWeight: '700',
+              transform: 'translateX(-20px)', '@media (max-width: 767px)': { // md breakpoint
+              
+            },}}>
                 {title}
               </Typography>
               <Typography ref={animateRef1} variant="body1" sx={{ mb:3, color: 'text.secondary', opacity: 0}}>
@@ -36,7 +38,7 @@
             </Grid>
 
             {/* Image Column */}
-            <Grid item size={{ xs: 12, md: 5 }}>
+            <Grid item size={{ xs: 12, md: 5 }} order={{ xs: 1, md: 2 }}>
               <Box
                 component="img"
                 src={ImgBanner}
