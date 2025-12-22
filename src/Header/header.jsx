@@ -19,11 +19,12 @@ const pages = [
           pageUrl: '/',
           id:1
         },
-        /**{
+        {
           title: 'Phenom Solutions',
           pageUrl: '/phenom-solutions',
           id:2
         },
+        /**
         {
           title: 'AI Automation',
           pageUrl: '/automation',

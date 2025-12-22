@@ -4,8 +4,11 @@
     import gsap from "gsap"
     import { useGSAP } from "@gsap/react"
     import { useRef } from "react"
+    import { useNavigate } from 'react-router';
 
-    function ImgBannerComponent({title, text, ImgBanner}) {
+    function ImgBannerComponent({title, text, btnText, ImgBanner}) {
+          const navigate = useNavigate()
+
           const animateRef = useRef(null)
           const animateRef1 = useRef(null)
           const animateRef2 = useRef(null)
@@ -35,6 +38,11 @@
               <Typography ref={animateRef1} variant="body1" sx={{ mb:3, color: 'text.secondary', opacity: 0}}>
                 {text}
               </Typography>
+              {
+                btnText && <Button variant="contained" color="primary" onClick={() => navigate('/contact')}>
+              {btnText}
+            </Button>
+              }
             </Grid>
 
             {/* Image Column */}
