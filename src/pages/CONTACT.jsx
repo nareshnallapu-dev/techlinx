@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
 import Layout from '../Layout/Layout'
 import Breadcrumb from '../components/Breadcrumb'
+import ScrollToTop from '../components/scrollToTopButton'
 import { Box, Container, Grid, Typography } from '@mui/material';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
@@ -159,6 +160,7 @@ const Contact = () => {
         </Container>
       </Box>
       <LocationWidget/>
+      <ScrollToTop />
     </Layout>
   </>
 }

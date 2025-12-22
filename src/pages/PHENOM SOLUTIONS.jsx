@@ -4,7 +4,7 @@ import ImgBannerComponent from "../components/ImgBannerComponent"
 import AboutBanner from '../assets/about-us.jpg'
 import WhoWeAre from '../assets/whoweare.jpg'
 import WhatWeDoImg from '../assets/whatwedo.jpg'
-import WhyChooseImg from '../assets/choose.jpg'
+import ScrollToTop from '../components/scrollToTopButton'
 import ImgTextWidget from '../components/ImgTextWidget';
 import ImgTextWidgetTwo from '../components/ImgTextWidgetTwo';
 import ImgTextWidgetTwoPlain from '../components/ImgTextWidgetTwoPlain';
@@ -13,13 +13,8 @@ import CallToActionImg from '../assets/CallToAction.png'
 import WeSupportImg from '../assets/weSupport.jpg'
 import OptimizationImg from '../assets/optimization.jpg'
 import EimImg from '../assets/eim.jpg'
-import Commitment from '../assets/commitment.jpg';
 import Layout from "../Layout/Layout";
 import ImgTextWidgetTrpnt from '../components/ImgTextWidgetTrpnt';
-import ServicesImg from '../assets/services.jpg'
-import WhoAreWe from '../assets/unleashing_exp.jpg'
-import WhatWeDo from '../assets/banner-main.png'
-import { CallToAction } from "@mui/icons-material";
 const PhenomSolutions = () => {
     return <>
     <Layout>
@@ -43,7 +38,7 @@ const PhenomSolutions = () => {
         <ImgTextWidget title={'Who We Support'} ImgBanner={WeSupportImg} point1={'CHROs & HR Leadership'} point2={'HRIT & HR Operations Teams'} point3={'Talent Acquisition Leaders'} point4={'Global and Regional Hiring Teams'}/>
 
         <ImgTextWidgetTwoPlain title={'Call to Action'} subTitle={'Planning a Phenom Implementation or Optimization?'} text={'Whether you are implementing Phenom for the first time, scaling globally, or optimizing an existing setup—Techlinx brings the expertise and accountability enterprises expect.'} listItem={'What enterprises gain with Techlinx:'} ImgBanner={CallToActionImg} point1={'Faster and more scalable Phenom implementations'} point2={'Stable integrations across the HR ecosystem'} point3={'AI capabilities aligned to real hiring workflows'} point4={'Reduced post-go-live risk and operational overhead'} btnTxt={'Schedule a Phenom Consultation'}/>
-
+        <ScrollToTop />
     </Layout>
     </>
 }
