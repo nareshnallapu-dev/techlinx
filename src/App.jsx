@@ -10,10 +10,13 @@ import Services from './pages/SERVICES';
 import NotFound from './components/NotFound';
 import AiAutomation from './pages/AI AUTOMATION';
 import Integrations from './pages/INTEGRATIONS';
+import ManagedServices from './pages/MANAGED SERVICES';
+import TopBar from './components/TopBar';
 
 const App = () => {
   return (
     <BrowserRouter basename="/techlinx">
+      <TopBar/>
       <Routes>
         <Route path='/' index element={<Home/>}/>
         <Route path='/home' element={<Home/>}/>
@@ -21,6 +24,7 @@ const App = () => {
         <Route path='/phenom-solutions' element={<PhenomSolutions/>}/>
         <Route path='/ai-automation' element={<AiAutomation/>}/>
         <Route path='/integrations' element={<Integrations/>}/>
+        <Route path='/managed-services' element={<ManagedServices/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/contactus' element={<ContactUs/>}/>
         <Route path="*" element={<NotFound />} />

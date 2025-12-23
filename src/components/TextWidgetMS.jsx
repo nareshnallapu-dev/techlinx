@@ -12,7 +12,7 @@
     import abstractBglinesImg from '../assets/abstractBglines.jpg'
     import TextWidgetCard from './TextWidgetCard';
 
-    function TextWidgetPlain({title}) {
+    function TextWidgetMS({title}) {
 
 
           const animateRef = useRef(null)
@@ -32,7 +32,7 @@
             },
         }}>
         <Container>
-          <Grid container spacing={8} alignItems="baseline">
+          <Grid container spacing={2} alignItems="baseline">
             <Grid item size={{ xs: 12, md: 12 }}>
               <Typography ref={animateRef} variant="h4" component="h3" gutterBottom sx={{ fontWeight: '700',
               transform: 'translateX(-20px)', textAlign: 'center'}}>
@@ -42,13 +42,16 @@
             {/* Image Column */}
             {/* Text Column */}
             <Grid item size={{ xs: 12, md: 4 }}>
-              <TextWidgetCard listItem={'HRIS & Core Systems'} point1={'Workday'} point2={'SAP SuccessFactors'} point3={'Oracle HCM'} point4={'iCIMS'} cardBottomHead={'Outcome:'} cardBottomText={'Accurate data synchronization and streamlined hiring workflows'}/>
+              <TextWidgetCard listItem={'Post Go-Live Support & Hypercare'} point1={'Production issue management'} point2={'Release stabilization & monitoring'} point3={'SLA-based support models'} point4={''} cardBottomHead={'Outcome:'} cardBottomText={'Stable operations and reduced business risk'}/>
             </Grid>
             <Grid item size={{ xs: 12, md: 4 }}>
-              <TextWidgetCard listItem={'Talent Ecosystem & Vendors'} point1={'Job boards & aggregators'} point2={'Assessment platforms'} point3={'Background verification'} point4={'Offer & onboarding tools'} cardBottomHead={'Outcome:'} cardBottomText={'Faster hiring with reduced manual intervention'}/>
+              <TextWidgetCard listItem={'Release & Upgrade Management'} point1={'Phenom release impact analysis'} point2={'Regression testing & validation'} point3={'Controlled deployment support'} point4={''} cardBottomHead={'Outcome:'} cardBottomText={'Confident releases with minimal disruption'}/>
             </Grid>
             <Grid item size={{ xs: 12, md: 4 }}>
-              <TextWidgetCard listItem={'AI & Workflow Automation'} point1={'Event-based triggers'} point2={'Candidate & job data automation'} point3={'Status updates & validations'} point4={''} cardBottomHead={'Outcome:'} cardBottomText={'Consistent, automated end-to-end processes'}/>
+              <TextWidgetCard listItem={'Quality Assurance & Platform Stability'} point1={'Ongoing regression testing'} point2={'Integration and workflow validation'} point3={'Automation test support'} point4={''} cardBottomHead={'Outcome:'} cardBottomText={'Reliable, enterprise-ready platform performance'}/>
+            </Grid>
+            <Grid item size={{ xs: 12, md: 6}}>
+              <TextWidgetCard listItem={'Platform Optimization & Enhancements'} point1={'Continuous improvements & enhancements'} point2={'Feature enablement & configuration updates'} point3={'Performance and usability optimization'} point4={''} cardBottomHead={'Outcome:'} cardBottomText={'Higher adoption and better ROI from Phenom'}/>
             </Grid>
           </Grid>
         </Container>
@@ -56,4 +59,4 @@
     );
     }
 
-    export default TextWidgetPlain;
+    export default TextWidgetMS;

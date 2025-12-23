@@ -52,22 +52,23 @@ import SendIcon from '@mui/icons-material/Send';
                   justifyContent:'start'
                 },
               }}>
-                <ListItemIcon>
+                {/**<ListItemIcon>
                 <Link to='https://www.facebook.com/people/Techlinx-India/pfbid02eYu6mgt7dE9rr6Ar2daaQGeiDtsLAPvPwRc1vzS8aWNoqQwgTFBiUBoYjntDUbMsl/' target='_blank'><FacebookIcon fontSize="small" style={{ fill: '#fff' }}/></Link>  
                 </ListItemIcon>
                 <ListItemIcon>
                   <Link to=''><InstagramIcon fontSize="small" style={{ fill: '#fff' }}/></Link>
                 </ListItemIcon>
                 <ListItemIcon>
-                  <Link to='https://www.linkedin.com/company/techlinx-it-services'><LinkedInIcon fontSize="small" style={{ fill: '#fff' }}/></Link>
-                </ListItemIcon>
-                <ListItemIcon>
                   <Link to=''><XIcon fontSize="small" style={{ fill: '#fff' }}/></Link>
                 </ListItemIcon>
                 <ListItemIcon>
                   <Link to=''><YouTubeIcon fontSize="small" style={{ fill: '#fff' }}/></Link>
+                </ListItemIcon>**/}
+                <ListItemIcon>
+                  <Link to='https://www.linkedin.com/company/techlinx-it-services'><LinkedInIcon fontSize="small" style={{ fill: '#fff' }}/></Link>
                 </ListItemIcon>
               </ListItem>
+
             </List>
             
             </Grid>

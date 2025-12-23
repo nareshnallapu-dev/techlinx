@@ -14,6 +14,9 @@ import ServicesImg from '../assets/services.jpg'
 import HeroBannerImg from '../assets/heroBannerImg.png'
 import UnleashingImg from '../assets/image2.png'
 import ServicesSvg from '../assets/services.svg'
+import AbstractBg from '../assets/abstract_bg.jpg'
+import AtsComponent from '../components/AtsComponent';
+import TopBar from '../components/TopBar';
 
 const Home = () => {
     return <>
@@ -28,7 +31,8 @@ const Home = () => {
             btnText='Know more'
             />
             <PartnerComponent/>
-            <ImgTextWidget title={'Our Services'} btnText={'Reach Us'} ImgBanner={ServicesSvg} point1={'HR Platform Implementations (ATS, CRM, Career Sites, Onboarding)'} point2={'HR Systems Integrations (HRIS, Job Boards, Assessments)'} point3={'Talent Experience OptimizationTalent Experience Optimization'} point4={'HR Automation & Workflow Enablement'} point5={'Quality Assurance & Managed Support'}/>
+            <ImgTextWidget AbstractBg={AbstractBg} title={'Our Services'} btnText={'Reach Us'} ImgBanner={ServicesSvg} point1={'HR Platform Implementations (ATS, CRM, Career Sites, Onboarding)'} point2={'HR Systems Integrations (HRIS, Job Boards, Assessments)'} point3={'Talent Experience OptimizationTalent Experience Optimization'} point4={'HR Automation & Workflow Enablement'} point5={'Quality Assurance & Managed Support'}/>
+            <AtsComponent/>
         <ScrollToTop />
         </Layout>
     </>

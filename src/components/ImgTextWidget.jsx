@@ -1,5 +1,4 @@
 
-    import AbstractBg from '../assets/abstract_bg.jpg'
     import { Container, Grid, Box, Typography, Button } from '@mui/material';
     import gsap from "gsap"
     import { useGSAP } from "@gsap/react"
@@ -10,7 +9,7 @@
     import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
     import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
 
-    function ImgTextWidget({title, text, ImgBanner, point1, point2, point3, point4, point5}) {
+    function ImgTextWidget({title, text, ImgBanner, point1, point2, point3, point4, point5, AbstractBg}) {
           const animateRef = useRef(null)
           const animateRef1 = useRef(null)
           const animateRef2 = useRef(null)
@@ -21,7 +20,7 @@
           },  {})
           
     return (
-      <Box sx={{ background: `url(${AbstractBg})`, py: 8, 
+      <Box sx={{ background: `#fff url(${AbstractBg})`, py: 8, 
                   // Responsive styles using breakpoints
             '@media (max-width: 767px)': { // md breakpoint
               py:4

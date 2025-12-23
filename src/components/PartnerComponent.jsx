@@ -28,6 +28,9 @@ const PartnerComponent = () => {
         <PartnerList partnerLogo={"https://assets-us-01.kc-usercontent.com/1ca05609-4ad1-009e-bc40-2e1230b16a75/4a4a117a-a2f1-4b35-9b3b-d11766252b8d/thornton_thomasetti_logo_600x480.png"}/>
         <PartnerList partnerLogo={"https://clemensfoodgroup.com/wp-content/uploads/2022/04/Clemens-LogoRefresh.png"}/>
         <PartnerList partnerLogo={"https://cdn.phenompeople.com/CareerConnectResources/SKISJRUS/images/SJRMC_Desktop_logo-1738059849200.png"}/>
+        <PartnerList partnerLogo={"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Baker_Hughes_logo.svg/1280px-Baker_Hughes_logo.svg.png"}/>
+        <PartnerList partnerLogo={"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Lineage_Logistics_logo.svg/2560px-Lineage_Logistics_logo.svg.png"}/>
+        <PartnerList partnerLogo={"https://cougarwindows.com/wp-content/uploads/miter-logo.png"}/>
       </Marquee>
       </Container>
     </Box>

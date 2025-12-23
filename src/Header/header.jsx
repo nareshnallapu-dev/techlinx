@@ -36,12 +36,12 @@ const pages = [
           pageUrl: '/integrations',
           id:4,
         },
-        /**
+        
         {
           title: 'Managed Services',
           pageUrl: '/managed-services',
           id:5,
-        },**/
+        },
         {
           title: 'About Techlinx',
           pageUrl: '/about',
