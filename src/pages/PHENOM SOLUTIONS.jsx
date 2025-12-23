@@ -12,6 +12,7 @@ import WeSupport from '../assets/support.jpg';
 import CallToActionImg from '../assets/CallToAction.png'
 import WeSupportImg from '../assets/weSupport.jpg'
 import OptimizationImg from '../assets/optimization.jpg'
+import PartnerImg from '../assets/partnerImg.png'
 import EimImg from '../assets/eim.jpg'
 import Layout from "../Layout/Layout";
 import ImgTextWidgetTrpnt from '../components/ImgTextWidgetTrpnt';
@@ -19,7 +20,7 @@ const PhenomSolutions = () => {
     return <>
     <Layout>
         
-        <ImgBannerComponent title={'Enterprise Phenom Expertise That Delivers Measurable Hiring Outcomes'} text={'Techlinx is a specialized HR technology partner delivering enterprise-grade Phenom solutions. We help organizations design, implement, and optimize Phenom platforms to support large-scale hiring, intelligent automation, and exceptional candidate and recruiter experiences.'} btnText={parse('Talk to a Expert')} ImgBanner={AboutBanner}/>
+        <ImgBannerComponent title={'Enterprise Phenom Expertise That Delivers Measurable Hiring Outcomes'} text={'Techlinx is a specialized HR technology partner delivering enterprise-grade Phenom solutions. We help organizations design, implement, and optimize Phenom platforms to support large-scale hiring, intelligent automation, and exceptional candidate and recruiter experiences.'} btnText={parse('Talk to a Expert')} ImgBanner={PartnerImg}/>
 
         <ImgTextWidgetTrpnt title={'Why Phenom. Why Techlinx.'} text={["Phenom is a powerful platform—but enterprise success depends on how it is implemented, integrated, and governed.", <br/>, "Techlinx brings deep Phenom expertise, strong delivery discipline, and an enterprise-first mindset to ensure predictable outcomes."]} ImgBanner={WhoWeAre}/>
 

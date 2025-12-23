@@ -8,6 +8,8 @@ import Contact from './pages/CONTACT';
 import ContactUs from './pages/CONTACT';
 import Services from './pages/SERVICES';
 import NotFound from './components/NotFound';
+import AiAutomation from './pages/AI AUTOMATION';
+import Integrations from './pages/INTEGRATIONS';
 
 const App = () => {
   return (
@@ -17,7 +19,8 @@ const App = () => {
         <Route path='/home' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/phenom-solutions' element={<PhenomSolutions/>}/>
-        <Route path='/services' element={<Services/>}/>
+        <Route path='/ai-automation' element={<AiAutomation/>}/>
+        <Route path='/integrations' element={<Integrations/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/contactus' element={<ContactUs/>}/>
         <Route path="*" element={<NotFound />} />

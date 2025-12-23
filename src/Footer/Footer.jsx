@@ -37,7 +37,7 @@ import SendIcon from '@mui/icons-material/Send';
             </Grid>
             <Grid item size={{ xs: 12, sm: 6, md: 3 }} >
               <Typography variant="body2" color="white" sx={{display: 'flex', gap: 1, alignItems:'center'}}>
-                <SendIcon fontSize="small"/><a style={{color:'white'}} href='mailto:support@techlinx.ai'>support@techlinx.ai</a> 
+                <SendIcon fontSize="small"/><a style={{color:'white'}} href='mailto:info@techlinx.ai'>info@techlinx.ai</a> 
               </Typography>
             </Grid>
             <Grid item size={{ xs: 12, sm: 6, md: 4 }} sx={{display: 'flex', justifyContent:'end',
@@ -53,13 +53,13 @@ import SendIcon from '@mui/icons-material/Send';
                 },
               }}>
                 <ListItemIcon>
-                <Link to='https://www.facebook.com/profile.php?id=61561137262959' target='_blank'><FacebookIcon fontSize="small" style={{ fill: '#fff' }}/></Link>  
+                <Link to='https://www.facebook.com/people/Techlinx-India/pfbid02eYu6mgt7dE9rr6Ar2daaQGeiDtsLAPvPwRc1vzS8aWNoqQwgTFBiUBoYjntDUbMsl/' target='_blank'><FacebookIcon fontSize="small" style={{ fill: '#fff' }}/></Link>  
                 </ListItemIcon>
                 <ListItemIcon>
                   <Link to=''><InstagramIcon fontSize="small" style={{ fill: '#fff' }}/></Link>
                 </ListItemIcon>
                 <ListItemIcon>
-                  <Link to=''><LinkedInIcon fontSize="small" style={{ fill: '#fff' }}/></Link>
+                  <Link to='https://www.linkedin.com/company/techlinx-it-services'><LinkedInIcon fontSize="small" style={{ fill: '#fff' }}/></Link>
                 </ListItemIcon>
                 <ListItemIcon>
                   <Link to=''><XIcon fontSize="small" style={{ fill: '#fff' }}/></Link>
@@ -69,6 +69,7 @@ import SendIcon from '@mui/icons-material/Send';
                 </ListItemIcon>
               </ListItem>
             </List>
+            
             </Grid>
           </Grid>
           </Container>

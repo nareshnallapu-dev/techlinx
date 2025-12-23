@@ -72,11 +72,12 @@
                   width: '100%',
                   height: 'auto',
                   borderRadius: 4,
-                  boxShadow: 6,
+                  boxShadow: 0,
+                  mixBlendMode: 'multiply',
                   transition: 'transform 0.3s ease-in-out',
                   '&:hover': {
-                    transform: 'scale(1.1)', 
-                    boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', 
+                    transform: 'scale(1)', 
+                    boxShadow: '0px 4px 8px transparent', 
                   },
                 }}
               />

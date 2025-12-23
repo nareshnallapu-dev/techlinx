@@ -11,7 +11,7 @@ export default function ImgMediaCard({CardImg, cardTitle, cardText}) {
     
     <Card sx={{ maxWidth: 'auto', display: 'flex', flexDirection:'column', flexGrow:'1',transition: 'transform 0.3s ease-in-out',
                   '&:hover': {
-                    transform: 'scale(1.05)', 
+                    transform: 'scale(1)', 
                     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', 
                   }, }}>
       <CardMedia

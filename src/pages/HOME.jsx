@@ -11,12 +11,14 @@ import ImgTextWidget from '../components/ImgTextWidget';
 import Layout from "../Layout/Layout"
 import ImgBanner from '../assets/banner3.avif'
 import ServicesImg from '../assets/services.jpg'
-import UnleashingImg from '../assets/unleashing_exp.jpg'
+import HeroBannerImg from '../assets/heroBannerImg.png'
+import UnleashingImg from '../assets/image2.png'
+import ServicesSvg from '../assets/services.svg'
 
 const Home = () => {
     return <>
         <Layout>
-            <ImgBannerComponent  title={Mydata[0].heroText} text={Mydata[0].heroSubTitle} ImgBanner={ImgBanner}/>
+            <ImgBannerComponent  title={Mydata[0].heroText} text={Mydata[0].heroSubTitle} ImgBanner={HeroBannerImg}/>
             <Suspense fallback={<div>Loading component...</div>}>
                 <ImageBanner title={Mydata[0].title2} text={Mydata[0].text2} btnText={parse(Mydata[0].btntext2)} widgetImg={UnleashingImg}/>
             </Suspense>
@@ -26,7 +28,7 @@ const Home = () => {
             btnText='Know more'
             />
             <PartnerComponent/>
-            <ImgTextWidget title={'Our Services'} btnText={'Reach Us'} ImgBanner={ServicesImg} point1={'HR Platform Implementations (ATS, CRM, Career Sites, Onboarding)'} point2={'HR Systems Integrations (HRIS, Job Boards, Assessments)'} point3={'Talent Experience OptimizationTalent Experience Optimization'} point4={'HR Automation & Workflow Enablement'} point5={'Quality Assurance & Managed Support'}/>
+            <ImgTextWidget title={'Our Services'} btnText={'Reach Us'} ImgBanner={ServicesSvg} point1={'HR Platform Implementations (ATS, CRM, Career Sites, Onboarding)'} point2={'HR Systems Integrations (HRIS, Job Boards, Assessments)'} point3={'Talent Experience OptimizationTalent Experience Optimization'} point4={'HR Automation & Workflow Enablement'} point5={'Quality Assurance & Managed Support'}/>
         <ScrollToTop />
         </Layout>
     </>

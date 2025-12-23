@@ -24,17 +24,19 @@ const pages = [
           pageUrl: '/phenom-solutions',
           id:2
         },
-        /**
+        
         {
           title: 'AI Automation',
-          pageUrl: '/automation',
+          pageUrl: '/ai-automation',
           id:3,
         },
+        
         {
           title: 'Integrations',
           pageUrl: '/integrations',
           id:4,
         },
+        /**
         {
           title: 'Managed Services',
           pageUrl: '/managed-services',
