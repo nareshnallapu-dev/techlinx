@@ -51,7 +51,7 @@
             </Grid>
             {/* Text Column */}
             <Grid item size={{ xs: 12, md: 7 }} order={{ md: 1, sm:1 }}>
-              <Typography ref={animateRef} variant="h4" component="h4" gutterBottom sx={{ fontWeight: '700',
+              <Typography ref={animateRef} variant="h4" component="h3" gutterBottom sx={{ fontWeight: '700',
               transform: 'translateX(0px)'}}>
                 {title}
               </Typography>

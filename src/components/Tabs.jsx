@@ -4,8 +4,6 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import { Box, Container } from '@mui/material';
 import ImageBanner from './ImageBanner';
-import HrImg from '../assets/hr_tech.jpg'
-import TalentOperationImg from '../assets/talent_operation.jpg'
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -52,10 +50,10 @@ export default function TabSection() {
                 </Tabs>
             </Box>
             <CustomTabPanel value={value} index={0}>
-                <ImageBanner title={"Talent Operations Optimization & Delivery"} text={"Optimize your talent operations with our deep consulting expertise to deliver a best-in-class talent experience."} btnText={<a style={{color:'white'}} href='/contact'>Contact Us</a>} widgetImg={TalentOperationImg}/>
+                <ImageBanner title={"Talent Operations Optimization & Delivery"} text={"Optimize your talent operations with our deep consulting expertise to deliver a best-in-class talent experience."} btnText={<a style={{color:'white'}} href='/contact'>Contact Us</a>}/>
             </CustomTabPanel>
             <CustomTabPanel value={value} index={1}>
-                <ImageBanner title={"HR Tech Implementation and Optimization Services"} text={"Phenoms TXM platform helps you get the most from your talent. But who is helping you get the most from Phenom? Augment your staff with our team of Phenom-certified talent acquisition strategy, project management and technical professionals. We can engage before you sign a contract and will stay on as long as you need us."} btnText={<a style={{color:'white'}} href='/contact'>Contact Us</a>} widgetImg={HrImg}/>
+                <ImageBanner title={"HR Tech Implementation and Optimization Services"} text={"Phenoms TXM platform helps you get the most from your talent. But who is helping you get the most from Phenom? Augment your staff with our team of Phenom-certified talent acquisition strategy, project management and technical professionals. We can engage before you sign a contract and will stay on as long as you need us."} btnText={<a style={{color:'white'}} href='/contact'>Contact Us</a>}/>
             </CustomTabPanel>
       </Container>
     </Box>

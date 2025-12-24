@@ -24,6 +24,8 @@ const AtsComponent = () => {
         <PartnerList partnerLogo={"https://cdn.prod.website-files.com/657890a20fc7e8389faccae9/65a790857c8aacfca3ddc324_Logo%20SAP.png"}/>
         <PartnerList partnerLogo={"https://getleadline.com/wp-content/uploads/brand-logo-ukg-1.png"}/>
         <PartnerList partnerLogo={"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/ICIMS_logo.svg/1280px-ICIMS_logo.svg.png"}/>
+        <PartnerList partnerLogo={"https://upload.wikimedia.org/wikipedia/commons/3/3b/Workday_Logo.png"}/>
+        <PartnerList partnerLogo={"https://cdn.prod.website-files.com/657890a20fc7e8389faccae9/65a790857c8aacfca3ddc324_Logo%20SAP.png"}/>
       </Marquee>
       </Container>
     </Box>

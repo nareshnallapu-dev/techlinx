@@ -9,7 +9,7 @@ const TopBar = () => {
         setIsVisible(false);
     }
   return <>
-    {isVisible && <Box sx={{background: '#27478d', color: 'white', py: 1, position: 'sticky', top: 0, zIndex: 999999, width: '100%'}}>
+    {isVisible && <Box sx={{background: '#27478d', color: 'white', py: 1.5, px:4, position: 'sticky', top: 0, zIndex: 9999, width: '100%'}}>
         <Container maxWidth='md'>
             <Grid sx={{textAlign:'center'}}>
                 <Typography variant='p' sx={{fontWeight: 'normal', color: 'white'}} gutterBottom>

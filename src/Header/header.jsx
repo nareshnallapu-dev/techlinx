@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState, useEffect, useRef } from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -74,11 +75,40 @@ function Header() {
 //     setAnchorElUser(null);
 //   };
 
-  return (
-    <AppBar position="sticky" elevation={0} style={{backgroundColor: "white", padding: '10px 0', 
+  const [sticky, setSticky] = useState({ isSticky: false, offset: 0 });
+  const headerRef = useRef(null);
+
+  // handle scroll event
+  const handleScroll = (elTopOffset, elHeight) => {
+    if (window.pageYOffset > (elTopOffset + elHeight)) {
+      setSticky({ isSticky: true, offset: elHeight });
+    } else {
+      setSticky({ isSticky: false, offset: 0 });
+    }
+  };
+
+  // add/remove scroll event listener
+  useEffect(() => {
+    var header = headerRef.current.getBoundingClientRect();
+    const handleScrollEvent = () => {
+      handleScroll(header.top, header.height)
+    }
+
+    window.addEventListener('scroll', handleScrollEvent);
+
+    return () => {
+      window.removeEventListener('scroll', handleScrollEvent);
+    };
+  }, []);
+
+  return <>
+    <div className={`navbar${sticky.isSticky ? ' sticky' : ''}`} ref={headerRef}>
+    <AppBar position='sticky' elevation={0} style={{backgroundColor: "white", padding: '10px 0', 
     }}>
       <Container maxWidth="lg">
-        <Toolbar disableGutters>
+        <Toolbar disableGutters sx={{ '@media (max-width: 900px)': { 
+                  flexFlow: 'row-reverse',
+                },}}>
           <Typography
             variant="h6"
             noWrap
@@ -97,7 +127,7 @@ function Header() {
             <img src={LOGO} alt="" style={{maxWidth: "150px"  }}/>
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ flexGrow: 1, flexFlow: 'row-reverse', display: { xs: 'flex', sm:'flex', md: 'none' } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -154,7 +184,7 @@ function Header() {
           >
             <img src={LOGO} alt="" style={{maxWidth: "150px"  }}/>
           </Typography>
-          <Box sx={{flexGrow: 1, justifyContent: 'right', display: { xs: 'none', md: 'flex' }} }>
+          <Box sx={{flexGrow: 1, justifyContent: 'right', display: { xs: 'none', sm: 'none', md: 'flex' }} }>
             {pages.map((page) => (
               <Typography 
                 key={page.id}
@@ -199,6 +229,7 @@ function Header() {
         </Toolbar>
       </Container>
     </AppBar>
-  );
+    </div>
+  </>
 }
 export default Header;

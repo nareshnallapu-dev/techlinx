@@ -7,12 +7,13 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import XIcon from '@mui/icons-material/X';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import SendIcon from '@mui/icons-material/Send';
-    import List from '@mui/material/List';
-    import ListItem from '@mui/material/ListItem';
-    import ListItemIcon from '@mui/material/ListItemIcon';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import PhenomCertifiedLogo from '../assets/phenomCertifiedLogo.webp'
    
 
-    const Footer = () => {
+const Footer = () => {
       return (
         <Box
           sx={{
@@ -28,7 +29,7 @@ import SendIcon from '@mui/icons-material/Send';
             <Grid item size={{ xs: 12, sm: 6, md: 5 }}>
               <Typography variant="body2" color="white" >
                 {'Copyright © '}
-                <Link style={{color: '#fff'}} href="https://yourwebsite.com/">
+                <Link style={{color: '#fff'}} href="https://techlinx.ai/">
                   Techlinx
                 </Link>{' '}
                 {new Date().getFullYear()}.
@@ -60,17 +61,15 @@ import SendIcon from '@mui/icons-material/Send';
                 </ListItemIcon>
                 <ListItemIcon>
                   <Link to=''><XIcon fontSize="small" style={{ fill: '#fff' }}/></Link>
-                </ListItemIcon>
+                </ListItemIcon>**/}
                 <ListItemIcon>
                   <Link to=''><YouTubeIcon fontSize="small" style={{ fill: '#fff' }}/></Link>
-                </ListItemIcon>**/}
+                </ListItemIcon>
                 <ListItemIcon>
                   <Link to='https://www.linkedin.com/company/techlinx-it-services'><LinkedInIcon fontSize="small" style={{ fill: '#fff' }}/></Link>
                 </ListItemIcon>
               </ListItem>
-
             </List>
-            
             </Grid>
           </Grid>
           </Container>

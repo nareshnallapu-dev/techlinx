@@ -26,11 +26,11 @@
       <Box sx={{ background: `transparent`, py: 0, 
                   // Responsive styles using breakpoints
             '@media (max-width: 767px)': { // md breakpoint
-              py:4
+              py:0
             },
         }}>
         <Container>
-          <Grid container spacing={4} alignItems="baseline">
+          <Grid container spacing={0} alignItems="baseline">
             {/* Image Column */}
             <Grid item size={{ xs: 12, md: 12 }}>
               <Typography variant="body1" sx={{ mb:0, mt:2, color: 'text.primary', fontWeight: '500'}}>

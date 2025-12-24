@@ -38,23 +38,23 @@
                 {text}
               </Typography>
                 <List sx={{ listStyleType: 'disc', mb:2 }}>
-                    {point1 && <ListItem variant='body1' component='p' sx={{ mb:0,p:0, color: 'text.secondary',}}>
+                    {point1 && <ListItem variant='body1' component='p' sx={{ mb:.6, p:0, color: 'text.secondary',}}>
                         <RadioButtonCheckedIcon  fontSize='5px' sx={{mr:1}}/> {point1}
                       </ListItem>
                     }
-                    {point2 && <ListItem variant='body1' component='p' sx={{ mb:0,p:0, color: 'text.secondary',}}>
+                    {point2 && <ListItem variant='body1' component='p' sx={{ mb:.6, p:0, color: 'text.secondary',}}>
                         <RadioButtonCheckedIcon  fontSize='5px' sx={{mr:1}}/> {point2}
                       </ListItem>
                     }
-                    {point3 && <ListItem variant='body1' component='p' sx={{ mb:0,p:0, color: 'text.secondary',}}>
+                    {point3 && <ListItem variant='body1' component='p' sx={{ mb:.6, p:0, color: 'text.secondary',}}>
                         <RadioButtonCheckedIcon  fontSize='5px' sx={{mr:1}}/> {point3}
                       </ListItem>
                     }
-                    {point4 && <ListItem variant='body1' component='p' sx={{ mb:0,p:0, color: 'text.secondary',}}>
+                    {point4 && <ListItem variant='body1' component='p' sx={{ mb:.6, p:0, color: 'text.secondary',}}>
                         <RadioButtonCheckedIcon  fontSize='5px' sx={{mr:1}}/> {point4}
                       </ListItem>
                     }
-                    {point5 && <ListItem variant='body1' component='p' sx={{ mb:0,p:0, color: 'text.secondary',}}>
+                    {point5 && <ListItem variant='body1' component='p' sx={{ mb:.6, p:0, color: 'text.secondary',}}>
                         <RadioButtonCheckedIcon  fontSize='5px' sx={{mr:1}}/> {point5}
                       </ListItem>
                     }

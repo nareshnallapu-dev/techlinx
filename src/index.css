@@ -100,6 +100,27 @@ h6 {
 p{
   font-family: var(--font-roboto)!important;
 }
+img{
+  max-width: 100%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  transition: all 0.5s ease;
+  animation: smoothScroll 1s forwards;
+  z-index: 99;
+}
+@keyframes smoothScroll {
+  0% {
+    transform: translateY(-142px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
 
 button {
   border-radius: 8px;

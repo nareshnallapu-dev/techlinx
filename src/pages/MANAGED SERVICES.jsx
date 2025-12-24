@@ -2,7 +2,7 @@ import { Box, Breadcrumbs, Container, Grid, Typography } from "@mui/material";
 import parse from "html-react-parser"
 import ImgBannerComponent from "../components/ImgBannerComponent"
 import AboutBanner from '../assets/about-us.jpg'
-import WhoWeAre from '../assets/whoweare.jpg'
+import WhoWeAre from '../assets/whoWeAre.svg'
 import IntegrationApproachImg from '../assets/integrationApproach.png'
 import IntegrationBannerImg from '../assets/integrationBannerImg.png'
 import ScrollToTop from '../components/scrollToTopButton'

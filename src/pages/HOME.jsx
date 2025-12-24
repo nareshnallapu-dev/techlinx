@@ -22,7 +22,7 @@ const Home = () => {
     return <>
         <Layout>
             <ImgBannerComponent  title={Mydata[0].heroText} text={Mydata[0].heroSubTitle} ImgBanner={HeroBannerImg}/>
-            <Suspense fallback={<div>Loading component...</div>}>
+            <Suspense fallback={<div>Loading content. Please wait…</div>}>
                 <ImageBanner title={Mydata[0].title2} text={Mydata[0].text2} btnText={parse(Mydata[0].btntext2)} widgetImg={UnleashingImg}/>
             </Suspense>
             <Banner 

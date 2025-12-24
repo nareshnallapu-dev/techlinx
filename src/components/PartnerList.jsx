@@ -12,9 +12,9 @@ const PartnerList = ({partnerLogo}) => {
             <Box
               component="img"
               src={partnerLogo}
-              alt="Banner illustration"
+              alt="Techlinx Partners"
               sx={{
-                width: '180px',
+                width: '150px',
                 height: '80px',
                 borderRadius: 2,
                 aspectRatio: 2/2,

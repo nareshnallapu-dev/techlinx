@@ -23,7 +23,7 @@ import { useGSAP } from "@gsap/react"
 import { useRef } from "react"
 
 const Contact = () => {
-  const emailLink = <a style={{color:'#0009'}} href="mailto:support@techlinx.ai">support@techlinx.ai</a>
+  const emailLink = <a style={{color:'#0009'}} href="mailto:info@techlinx.ai">info@techlinx.ai</a>
 
         const animateRef = useRef(null)
         const animateRef1 = useRef(null)
@@ -52,8 +52,8 @@ const Contact = () => {
     },
     onSuccess: (msg) => {
       Swal.fire({
-        title: "Good job!",
-        text: "Email sent successfully!",
+        title: "Thank You for Reaching Out!",
+        text: "We’ve received your request and our team will get in touch with you shortly to discuss your ATS integration and HR technology needs.",
         icon: "success"
       });
       setIsSuccess(true);
