@@ -9,14 +9,11 @@ import PartnerComponent from "../components/PartnerComponent"
 import ScrollToTop from '../components/scrollToTopButton'
 import ImgTextWidget from '../components/ImgTextWidget';
 import Layout from "../Layout/Layout"
-import ImgBanner from '../assets/banner3.avif'
-import ServicesImg from '../assets/services.jpg'
 import HeroBannerImg from '../assets/heroBannerImg.png'
 import UnleashingImg from '../assets/image2.png'
 import ServicesSvg from '../assets/services.svg'
 import AbstractBg from '../assets/abstract_bg.jpg'
 import AtsComponent from '../components/AtsComponent';
-import TopBar from '../components/TopBar';
 
 const Home = () => {
     return <>

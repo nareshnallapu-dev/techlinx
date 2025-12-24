@@ -50,7 +50,8 @@
               <Box
                 component="img"
                 src={ImgBanner}
-                alt="Banner illustration"
+                alt="Techlinx Banner image + Enterprise Phenom"
+                loading="lazy"
                 sx={{
                   width: '100%',
                   height: 'auto',

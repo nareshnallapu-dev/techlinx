@@ -18,11 +18,16 @@ import AutomationImg from '../assets/automationImg.svg'
 import AbstractBg from '../assets/abstract_bg.jpg'
 import Layout from "../Layout/Layout";
 import TextWidgetPlain from '../components/TextWidgetPlain';
+import AtsComponent from "../components/AtsComponent";
 const Integrations = () => {
     return <>
     <Layout>
         
         <ImgBannerComponent title={'Seamless Phenom Integrations for Enterprise HR Ecosystems'} text={'Techlinx enables secure, scalable Phenom integrations across your HR technology landscape—ensuring smooth data flow, automation, and operational stability across enterprise systems.'} btnText={parse('Talk to an Integration Expert')} ImgBanner={IntegrationBannerImg}/>
+
+        <AtsComponent/>
+
+        <div style={{borderBottom: '2px solid #ddd'}}></div>
 
         <ImgTextWidgetTwoPlain AbstractBg={'#ffffff'} title={'Why Techlinx'} ImgBanner={WhyImg} point1={'Proven Phenom integration expertise'} point2={'Experience with complex enterprise HR landscapes'} point3={'Strong governance and post-go-live support'}/>
 

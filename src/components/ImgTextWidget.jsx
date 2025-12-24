@@ -66,7 +66,8 @@
               <Box
                 component="img"
                 src={ImgBanner}
-                alt="Banner illustration"
+                alt="Techlinx services"
+                loading="lazy"
                 sx={{
                   width: '100%',
                   height: 'auto',

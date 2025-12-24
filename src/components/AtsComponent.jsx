@@ -3,6 +3,14 @@ import { Container, Grid, Box, Typography, Button } from '@mui/material';
 import Marquee from 'react-fast-marquee'
 import PartnerList from './PartnerList'
 import MyData from '../data/myData.json'
+import PhenomHire from '../assets/partnerLogo/phenomHire.png'
+import SmartRecruiters from '../assets/partnerLogo/SmartRecruiters.png'
+import OracleLogo from '../assets/partnerLogo/oracleLogo.png'
+import TaleoLogo from '../assets/partnerLogo/taleoLogo.jpg'
+import WorkdayLogo from '../assets/partnerLogo/workdayLogo.png'
+import UkgLogo from '../assets/partnerLogo/ukgLogo.png'
+import SAPLogo from '../assets/partnerLogo/SAP_Success_factors_Logo.png'
+import IcimsLogo from '../assets/partnerLogo/icimsLogo.png'
 
 const AtsComponent = () => {
   return (
@@ -20,12 +28,14 @@ const AtsComponent = () => {
           </Grid>
         </Grid>
       <Marquee>
-        <PartnerList partnerLogo={"https://upload.wikimedia.org/wikipedia/commons/3/3b/Workday_Logo.png"}/>
-        <PartnerList partnerLogo={"https://cdn.prod.website-files.com/657890a20fc7e8389faccae9/65a790857c8aacfca3ddc324_Logo%20SAP.png"}/>
-        <PartnerList partnerLogo={"https://getleadline.com/wp-content/uploads/brand-logo-ukg-1.png"}/>
-        <PartnerList partnerLogo={"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/ICIMS_logo.svg/1280px-ICIMS_logo.svg.png"}/>
-        <PartnerList partnerLogo={"https://upload.wikimedia.org/wikipedia/commons/3/3b/Workday_Logo.png"}/>
-        <PartnerList partnerLogo={"https://cdn.prod.website-files.com/657890a20fc7e8389faccae9/65a790857c8aacfca3ddc324_Logo%20SAP.png"}/>
+        <PartnerList partnerLogo={WorkdayLogo}/>
+        <PartnerList partnerLogo={SAPLogo}/>
+        <PartnerList partnerLogo={UkgLogo}/>
+        <PartnerList partnerLogo={IcimsLogo}/>
+        <PartnerList partnerLogo={PhenomHire}/>
+        <PartnerList partnerLogo={SmartRecruiters}/>
+        <PartnerList partnerLogo={OracleLogo}/>
+        <PartnerList partnerLogo={TaleoLogo}/>
       </Marquee>
       </Container>
     </Box>

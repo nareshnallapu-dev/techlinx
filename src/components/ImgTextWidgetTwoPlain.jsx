@@ -29,13 +29,14 @@ import { useNavigate } from 'react-router';
             },
         }}>
         <Container>
-          <Grid container spacing={8} alignItems="center">
+          <Grid container spacing={6} alignItems="center">
             {/* Image Column */}
-            <Grid item size={{ xs: 12, md: 5 }}>
+            <Grid item size={{ xs: 12, md: 5 }} order={{ xs: 2, md:1}}>
               <Box
                 component="img"
                 src={ImgBanner}
-                alt="Banner illustration"
+                alt="Techlinx + career site + CMS"
+                loading="lazy"
                 sx={{
                   width: '100%',
                   height: 'auto',
@@ -50,7 +51,7 @@ import { useNavigate } from 'react-router';
               />
             </Grid>
             {/* Text Column */}
-            <Grid item size={{ xs: 12, md: 7 }}>
+            <Grid item size={{ xs: 12, md: 7 }} order={{ md:1}}>
               <Typography ref={animateRef} variant="h4" component="h3" gutterBottom sx={{ fontWeight: '700',
               transform: 'translateX(-20px)'}}>
                 {title}

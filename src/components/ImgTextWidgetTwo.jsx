@@ -86,7 +86,8 @@ import { useNavigate } from 'react-router';
               <Box
                 component="img"
                 src={ImgBanner}
-                alt="Banner illustration"
+                alt="Techlinx + Phenom + ATS + CRM"
+                loading="lazy"
                 sx={{
                   width: '100%',
                   height: 'auto',

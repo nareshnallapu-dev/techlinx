@@ -33,7 +33,8 @@ const ImageBanner = ({title, text, btnText, widgetImg}) => {
               component="img"
               ref={animateRef3}
               src={widgetImg}
-              alt="Banner illustration"
+              alt="Techlinx image + HR Technology"
+              loading="lazy"
                 sx={{
                   width: '100%',
                   height: 'auto',

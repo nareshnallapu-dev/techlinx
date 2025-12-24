@@ -11,6 +11,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import PhenomCertifiedLogo from '../assets/phenomCertifiedLogo.webp'
+import PhenomCertifiedIMg from '../assets/certifiedPartner.png'
 import LinkedInFollowButton from '../components/LinkedInFollowButton';
    
 
@@ -36,7 +37,7 @@ const FooterBottom = () => {
               justifyContent:'start'
             },
             }}>
-            <img src={PhenomCertifiedLogo} alt="" />
+            <img src={PhenomCertifiedIMg} alt="" />
             </Grid>
           </Grid>
           </Container>

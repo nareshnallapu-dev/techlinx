@@ -16,7 +16,8 @@ export default function ImgMediaCard({CardImg, cardTitle, cardText}) {
                   }, }}>
       <CardMedia
         component="img"
-        alt="Image here"
+        alt="Techlinx image + grow your talent"
+        loading="lazy"
         height="180px"
         maxWidth='100%'
         image={CardImg}

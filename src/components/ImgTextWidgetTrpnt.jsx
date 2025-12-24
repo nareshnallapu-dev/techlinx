@@ -34,7 +34,8 @@
               <Box
                 component="img"
                 src={ImgBanner}
-                alt="Banner"
+                alt="Techlinx + phenom solutions"
+                loading="lazy"
                 sx={{
                   width: '100%',
                   height: 'auto',
