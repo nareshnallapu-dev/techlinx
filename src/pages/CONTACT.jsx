@@ -75,7 +75,7 @@ const Contact = () => {
         <Container>
           <Grid container spacing={4}>
             <Grid size={{ xs: 12, md: 6, sm: 6 }}>
-              <Typography ref={animateRef} variant='h4' component='h5' sx={{ fontWeight: 'bold', opacity:0 }} gutterBottom>
+              <Typography ref={animateRef} variant='h4' component='h3' sx={{ fontWeight: 'bold', opacity:0 }} gutterBottom>
                 Let’s Connect
               </Typography>
               <Typography ref={animateRef1} sx={{ opacity:0}} variant='h5' component='h4' gutterBottom>Want to step further?
