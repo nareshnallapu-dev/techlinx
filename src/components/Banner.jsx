@@ -31,7 +31,6 @@ import { Container } from '@mui/material';
               height: 'auto',
             },
             '@media (max-width: 600px)': { // sm breakpoint
-              backgroundImage: 'url(path/to/small-banner-image.jpg)',
               height: 'auto',
               padding: 'auto', // Add some padding for smaller screens
               py: 6,

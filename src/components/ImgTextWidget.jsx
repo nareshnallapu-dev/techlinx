@@ -5,8 +5,6 @@
     import { useRef } from "react"
     import List from '@mui/material/List';
     import ListItem from '@mui/material/ListItem';
-    import ListItemText from '@mui/material/ListItemText';
-    import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
     import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
 
     function ImgTextWidget({title, text, ImgBanner, point1, point2, point3, point4, point5, AbstractBg}) {
