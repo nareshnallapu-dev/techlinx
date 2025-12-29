@@ -11,6 +11,7 @@ import AiAutomation from './pages/AI AUTOMATION';
 import Integrations from './pages/INTEGRATIONS';
 import ManagedServices from './pages/MANAGED SERVICES';
 import ScrollToTopPage from './components/ScrollToTopPage';
+import HrTechSolutions from './pages/HR TECH SOLUTIONS';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path='/ai-automation' element={<AiAutomation/>}/>
         <Route path='/integrations' element={<Integrations/>}/>
         <Route path='/managed-services' element={<ManagedServices/>}/>
+        <Route path='/hr-tech-solutions' element={<HrTechSolutions/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path="*" element={<NotFound />} />
       </Routes>

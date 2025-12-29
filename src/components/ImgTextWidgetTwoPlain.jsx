@@ -9,7 +9,7 @@
     import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
 import { useNavigate } from 'react-router';
 
-    function ImgTextWidgetTwoPlain({title, subTitle, text, ImgBanner, listItem, point1, point2, point3, point4, point5, cardBottomHead, cardBottomText, btnTxt, AbstractBg}) {
+    function ImgTextWidgetTwoPlain({title, subTitle, subTitle2, text, ImgBanner, listItem, point1, point2, point3, point4, point5, point6, point7, point8, point9, point10, cardBottomHead, cardBottomText, btnTxt, AbstractBg}) {
         const navigate = useNavigate()
 
           const animateRef = useRef(null)
@@ -58,6 +58,9 @@ import { useNavigate } from 'react-router';
               </Typography>
               {subTitle && <Typography variant="h6" component="h5" sx={{ mb:1, color: 'text.primary', fontWeight: '500'}}>
                 {subTitle}
+              </Typography>}
+              {subTitle2 && <Typography variant="h6" component="h5" sx={{ mb:1, color: 'text.primary', fontWeight: '500'}}>
+                {subTitle2}
               </Typography>
               }
               <Typography ref={animateRef1} variant="body1" sx={{ mb:2, color: 'text.secondary', opacity: 0}}>
@@ -96,6 +99,28 @@ import { useNavigate } from 'react-router';
               </Typography>
               <Typography variant="body1" sx={{ mb:0, mt:0, color: 'text.secondary', fontWeight: '400'}}>
                 {cardBottomText}
+                <List sx={{ listStyleType: 'disc', mb:2 }}>
+                    {point6 && <ListItem variant='body1' component='p' sx={{ mb:0,p:0, color: 'text.secondary',}}>
+                        <RadioButtonCheckedIcon  fontSize='5px' sx={{mr:1}}/> {point6}
+                      </ListItem>
+                    }
+                    {point7 && <ListItem variant='body1' component='p' sx={{ mb:0,p:0, color: 'text.secondary',}}>
+                        <RadioButtonCheckedIcon  fontSize='5px' sx={{mr:1}}/> {point7}
+                      </ListItem>
+                    }
+                    {point8 && <ListItem variant='body1' component='p' sx={{ mb:0,p:0, color: 'text.secondary',}}>
+                        <RadioButtonCheckedIcon  fontSize='5px' sx={{mr:1}}/> {point8}
+                      </ListItem>
+                    }
+                    {point9 && <ListItem variant='body1' component='p' sx={{ mb:0,p:0, color: 'text.secondary',}}>
+                        <RadioButtonCheckedIcon  fontSize='5px' sx={{mr:1}}/> {point9}
+                      </ListItem>
+                    }
+                    {point10 && <ListItem variant='body1' component='p' sx={{ mb:0,p:0, color: 'text.secondary',}}>
+                        <RadioButtonCheckedIcon  fontSize='5px' sx={{mr:1}}/> {point10}
+                      </ListItem>
+                    }
+                </List>
               </Typography>
             </Grid>
           </Grid>
