@@ -12,9 +12,11 @@ import AbstractBg from '../assets/abstract_bg.jpg'
 import Layout from "../Layout/Layout";
 import TextWidgetPlain from '../components/TextWidgetPlain';
 import AtsComponent from "../components/AtsComponent";
+import SEO from "./SEO";
 const Integrations = () => {
     return <>
     <Layout>
+        <SEO title={'Phenom Certified Integration Partner || Techlinx - Integrations'} description={'Techlinx is an HR technology services company delivering Phenom implementations, AI automation, integrations, and managed services for scalable hiring success. We partner with enterprises to deliver scalable, secure, and high-performing HR technology ecosystems that drive measurable hiring and business outcomes.'} keywords={'Phenom Certified Integration Partner, HR technology services, Phenom implementations, AI in HR, AI-driven HR solutions, Phenom Implementation Partner'} type={"website"}/>
         
         <ImgBannerComponent title={'Seamless Phenom Integrations for Enterprise HR Ecosystems'} text={'Techlinx enables secure, scalable Phenom integrations across your HR technology landscape—ensuring smooth data flow, automation, and operational stability across enterprise systems.'} btnText={parse('Talk to an Integration Expert')} ImgBanner={IntegrationBannerImg}/>
 

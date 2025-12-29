@@ -5,7 +5,6 @@ import AbstractBg from '../assets/abstract_bg.jpg'
 import WhyPT from '../assets/whyPT.svg'
 import AtsImg from '../assets/atsImg.svg'
 import CmsImg from '../assets/cmsImg.svg'
-import WhatWeDoImg from '../assets/whatWeDo.svg'
 import TrustImg from '../assets/trustImg.svg'
 import ScrollToTop from '../components/scrollToTopButton'
 import ImgTextWidget from '../components/ImgTextWidget';
@@ -17,13 +16,15 @@ import UpgradeImg from '../assets/upgrade.svg'
 import Complexity from '../assets/complexity.svg'
 import AiAutomation from '../assets/aiAutomation.svg'
 import PartnerImg from '../assets/partnerImg.svg'
-import EimImg from '../assets/eim.jpg'
 import Layout from "../Layout/Layout";
 import ImgTextWidgetTrpnt from '../components/ImgTextWidgetTrpnt';
+import SEO from "./SEO";
+
 const PhenomSolutions = () => {
     return <>
     <Layout>
-        
+        <SEO title={'Phenom Certified Integration Partner || Techlinx - Phenom Solutions'} description={'Techlinx is an HR technology services company delivering Phenom implementations, AI automation, integrations, and managed services for scalable hiring success. We partner with enterprises to deliver scalable, secure, and high-performing HR technology ecosystems that drive measurable hiring and business outcomes.'} keywords={'Phenom Certified Integration Partner, HR technology services, Phenom implementations, AI in HR, AI-driven HR solutions, Phenom Implementation Partner'} type={"website"} />
+
         <ImgBannerComponent title={'Enterprise Phenom Expertise That Delivers Measurable Hiring Outcomes'} text={'Techlinx is a specialized HR technology partner delivering enterprise-grade Phenom solutions. We help organizations design, implement, and optimize Phenom platforms to support large-scale hiring, intelligent automation, and exceptional candidate and recruiter experiences.'} btnText={parse('Talk to a Expert')} ImgBanner={PartnerImg}/>
 
         <ImgTextWidgetTrpnt title={'Why Phenom. Why Techlinx.'} text={["Phenom is a powerful platform—but enterprise success depends on how it is implemented, integrated, and governed.", <br/>, "Techlinx brings deep Phenom expertise, strong delivery discipline, and an enterprise-first mindset to ensure predictable outcomes."]} ImgBanner={WhyPT}/>

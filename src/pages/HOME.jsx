@@ -20,7 +20,7 @@ const Home = () => {
     return <>
         <div>
         <Layout>
-                <SEO title={'Phenom Certified Integration Partner || Techlinx - Home'} description={'Techlinx is an HR technology services company delivering Phenom implementations, AI automation, integrations, and managed services for scalable hiring success. We partner with enterprises to deliver scalable, secure, and high-performing HR technology ecosystems that drive measurable hiring and business outcomes.'} keywords={'Phenom Certified Integration Partner, HR technology services, Phenom implementations, AI in HR, AI-driven HR solutions, Phenom Implementation Partner'} />
+                <SEO title={'Phenom Certified Integration Partner || Techlinx - Home'} description={'Techlinx is an HR technology services company delivering Phenom implementations, AI automation, integrations, and managed services for scalable hiring success. We partner with enterprises to deliver scalable, secure, and high-performing HR technology ecosystems that drive measurable hiring and business outcomes.'} keywords={'Phenom Certified Integration Partner, HR technology services, Phenom implementations, AI in HR, AI-driven HR solutions, Phenom Implementation Partner'} type={"website"}/>
 
                 <ImgBannerComponent  title={Mydata[0].heroText} text={Mydata[0].heroSubTitle} ImgBanner={HeroBannerImg}/>
                 <Suspense fallback={<div>Loading content. Please wait…</div>}>

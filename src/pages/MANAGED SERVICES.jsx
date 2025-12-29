@@ -18,10 +18,13 @@ import AutomationImg from '../assets/automationImg.svg'
 import AbstractBg from '../assets/abstract_bg.jpg'
 import Layout from "../Layout/Layout";
 import TextWidgetMS from '../components/TextWidgetMS';
+import SEO from "./SEO";
+
 const ManagedServices = () => {
     return <>
     <Layout>
-        
+        <SEO title={'Phenom Certified Integration Partner || Techlinx - Managed Solutions'} description={'Techlinx is an HR technology services company delivering Phenom implementations, AI automation, integrations, and managed services for scalable hiring success. We partner with enterprises to deliver scalable, secure, and high-performing HR technology ecosystems that drive measurable hiring and business outcomes.'} keywords={'Phenom Certified Integration Partner, HR technology services, Phenom implementations, AI in HR, AI-driven HR solutions, Phenom Implementation Partner'} type={"website"}/>
+
         <ImgBannerComponent title={'Enterprise-Grade Phenom Support & Optimization'} text={'Techlinx provides structured Phenom managed services to help enterprises stabilize, optimize, and continuously improve their HR technology platforms—well beyond go-live.'} btnText={parse('Talk to a Managed Services Expert')} ImgBanner={TechSupportImg}/>
 
         <ImgTextWidgetTwoPlain AbstractBg={'#ffffff'} title={'Why Techlinx'} ImgBanner={WhyImg} point1={'Specialized Phenom managed services expertise'} point2={'Experience supporting complex enterprise environments'} point3={'Strong focus on stability, accountability, and outcomes'}/>

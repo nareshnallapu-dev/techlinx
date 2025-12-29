@@ -5,7 +5,6 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
 import Layout from '../Layout/Layout'
-import Breadcrumb from '../components/Breadcrumb'
 import ScrollToTop from '../components/scrollToTopButton'
 import { Box, Container, Grid, Typography } from '@mui/material';
 import TextField from '@mui/material/TextField';
@@ -21,6 +20,7 @@ import LocationWidget from '../components/locationWidget';
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
 import { useRef } from "react"
+import SEO from './SEO';
 
 const Contact = () => {
   const emailLink = <a style={{color:'#0009'}} href="mailto:info@techlinx.ai">info@techlinx.ai</a>
@@ -71,6 +71,8 @@ const Contact = () => {
   });
   return <>
     <Layout>
+      <SEO title={'Phenom Certified Integration Partner || Techlinx - Contact'} description={'Techlinx is an HR technology services company delivering Phenom implementations, AI automation, integrations, and managed services for scalable hiring success. We partner with enterprises to deliver scalable, secure, and high-performing HR technology ecosystems that drive measurable hiring and business outcomes.'} keywords={'Phenom Certified Integration Partner, HR technology services, Phenom implementations, AI in HR, AI-driven HR solutions, Phenom Implementation Partner, contact techlinx + reachout techlinx'} type={"website"}/>
+
       <Box sx={{background: `url(${AbstractBg})`, py:8}}>
         <Container>
           <Grid container spacing={4}>

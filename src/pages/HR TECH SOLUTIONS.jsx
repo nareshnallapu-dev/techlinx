@@ -19,10 +19,13 @@ import PartnerImg from '../assets/partnerImg.svg'
 import EimImg from '../assets/eim.jpg'
 import Layout from "../Layout/Layout";
 import ImgTextWidgetTrpnt from '../components/ImgTextWidgetTrpnt';
+import SEO from "./SEO";
+
 const HrTechSolutions = () => {
     return <>
     <Layout>
-        
+        <SEO title={'Phenom Certified Integration Partner || Techlinx - HR Tech Solutions'} description={'Techlinx is an HR technology services company delivering Phenom implementations, AI automation, integrations, and managed services for scalable hiring success. We partner with enterprises to deliver scalable, secure, and high-performing HR technology ecosystems that drive measurable hiring and business outcomes.'} keywords={'Phenom Certified Integration Partner, HR technology services, Phenom implementations, AI in HR, AI-driven HR solutions, Phenom Implementation Partner'} type={"website"}/>
+
         <ImgBannerComponent title={'End-to-End HR Technology Services for Enterprise Transformation'} text={'Techlinx partners with enterprises to design, implement, and optimize modern HR technology ecosystems. With deep expertise in Phenom and leading HR platforms, we help organizations deliver scalable, secure, and intelligent talent solutions that drive measurable business outcomes.'} btnText={parse('Talk to an HR Tech Expert')} ImgBanner={PartnerImg}/>
 
         {/* <ImgTextWidgetTrpnt title={'Why Phenom. Why Techlinx.'} text={["Phenom is a powerful platform—but enterprise success depends on how it is implemented, integrated, and governed.", <br/>, "Techlinx brings deep Phenom expertise, strong delivery discipline, and an enterprise-first mindset to ensure predictable outcomes."]} ImgBanner={WhyPT}/> */}
