@@ -19,7 +19,7 @@ export default function ImgMediaCard({CardImg, cardTitle, cardText}) {
         alt="Techlinx image + grow your talent"
         loading="lazy"
         height="180px"
-        maxWidth='100%'
+        maxWidth="100%"
         image={CardImg}
         sx={{background: '#f0f0f0', objectFit:'contain'}}
       />

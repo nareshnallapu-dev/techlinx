@@ -1,8 +1,6 @@
 
-import { Helmet } from 'react-helmet';
 import ImgBannerComponent from "../components/ImgBannerComponent"
 import AbstractBg from '../assets/abstract_bg.jpg'
-import OgImage from '../assets/og/OG_Image.jpg'
 import WhoWeAre from '../assets/whoWeAre.svg'
 import WhatWeDoImg from '../assets/whatWeDo.svg'
 import OurApproach from '../assets/ourApproach.svg'
@@ -14,21 +12,11 @@ import Layout from "../Layout/Layout";
 import ImgTextWidgetTrpnt from '../components/ImgTextWidgetTrpnt';
 import ScrollToTop from '../components/scrollToTopButton'
 import AboutImg from '../assets/aboutImg.svg'
+import SEO from './SEO';
 const About = () => {
     return <>
-    <div>
-        <Helmet>
-            <title>Phenom Certified Integration Partner || Techlinx - Home</title>
-            <meta name="description" content="Techlinx is an HR technology services company delivering Phenom implementations, AI automation, integrations, and managed services for scalable hiring success. We partner with enterprises to deliver scalable, secure, and high-performing HR technology ecosystems that drive measurable hiring and business outcomes." />
-            <meta name="keywords" content="Phenom Certified Integration Partner, HR technology services, Phenom implementations, AI in HR, AI-driven HR solutions, Phenom Implementation Partner"/>
-            <meta name="author" content="TECHLINX"/>
-            <meta property="og:title" content="Techlinx - Home" />
-            <meta property="og:type" content="Website" />
-            <meta property="og:description" content="Techlinx is an HR technology services company delivering Phenom implementations, AI automation, integrations, and managed services for scalable hiring success." />
-            <meta property="og:site_name" content="Techlinx" />
-            <meta property="og:image" content={OgImage} />
-        </Helmet>
         <Layout>
+        <SEO title={'Phenom Certified Integration Partner || Techlinx - About'} description={'Techlinx is an HR technology services company delivering Phenom implementations, AI automation, integrations, and managed services for scalable hiring success. We partner with enterprises to deliver scalable, secure, and high-performing HR technology ecosystems that drive measurable hiring and business outcomes.'} keywords={'Phenom Certified Integration Partner, HR technology services, Phenom implementations, AI in HR, AI-driven HR solutions, Phenom Implementation Partner'} />
             <ImgBannerComponent title={'Enterprise HR Technology Specialists. Phenom Experts.'} text={"Techlinx is an HR technology services company specializing in Phenom implementations, AI automation, integrations, and managed services. We partner with enterprises to deliver scalable, secure, and high-performing HR technology ecosystems that drive measurable hiring and business outcomes."} point1={'Talent Department Diagnostic (People, Process, Technology)'} point2={'Technology Evaluation Guidance'} point3={'People Analytics & Reporting'} ImgBanner={AboutImg}/>
 
             <ImgTextWidgetTrpnt title={'Who We Are'} text={'We are a team of HR technology specialists with deep experience delivering enterprise-scale talent acquisition solutions. Our focus is simple - help organizations realize the full value of their HR technology investments through structured delivery, strong governance, and continuous optimization.'} ImgBanner={WhoWeAre}/>
@@ -44,7 +32,6 @@ const About = () => {
             <ImgTextWidget AbstractBg={AbstractBg} title={'Our Commitment'} ImgBanner={Commitment} text={'We are committed to helping HR and talent teams build intelligent, scalable, and future-ready hiring platforms—delivered with precision and accountability.'}/>
             <ScrollToTop />
         </Layout>
-    </div>
     </>
 }
 export default About;

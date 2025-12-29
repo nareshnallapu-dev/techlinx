@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from "react-dom/client";
+import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Home from './pages/HOME'
 import About from './pages/ABOUT'
@@ -18,8 +19,7 @@ const App = () => {
     <BrowserRouter basename="/techlinx">
       <ScrollToTopPage/>
       <Routes>
-        <Route path='/' index element={<Home/>}/>
-        <Route path='/home' element={<Home/>}/>
+        <Route path='/home' index element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/phenom-solutions' element={<PhenomSolutions/>}/>
         <Route path='/ai-automation' element={<AiAutomation/>}/>

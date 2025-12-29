@@ -17,7 +17,7 @@ import { NavLink } from 'react-router';
 const pages = [
         {
           title: 'Home',
-          pageUrl: '/',
+          pageUrl: '/home',
           id:1
         },
         {
