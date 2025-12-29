@@ -1,12 +1,10 @@
 import React from 'react'
 import ReactDOM from "react-dom/client";
-import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Home from './pages/HOME'
 import About from './pages/ABOUT'
 import PhenomSolutions from './pages/PHENOM SOLUTIONS'
 import Contact from './pages/CONTACT';
-import ContactUs from './pages/CONTACT';
 import NotFound from './components/NotFound';
 import AiAutomation from './pages/AI AUTOMATION';
 import Integrations from './pages/INTEGRATIONS';
@@ -16,7 +14,7 @@ import HrTechSolutions from './pages/HR TECH SOLUTIONS';
 
 const App = () => {
   return (
-    <BrowserRouter basename="/techlinx">
+    <BrowserRouter basename="/techlinx/">
       <ScrollToTopPage/>
       <Routes>
         <Route path='/' index element={<Home/>}/>
