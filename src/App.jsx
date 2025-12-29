@@ -19,7 +19,8 @@ const App = () => {
     <BrowserRouter basename="/techlinx">
       <ScrollToTopPage/>
       <Routes>
-        <Route path='/home' index element={<Home/>}/>
+        <Route path='/' index element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/phenom-solutions' element={<PhenomSolutions/>}/>
         <Route path='/ai-automation' element={<AiAutomation/>}/>
