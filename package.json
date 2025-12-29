@@ -16,6 +16,17 @@
   "reactSnap": {
     "source": "dist",
     "inlineCss": true,
+    "skipThirdPartyRequests": true,
+    "routes": [
+      "/techlinx/",
+      "/techlinx/home",
+      "/techlinx/phenom-solutions",
+      "/techlinx/ai-automation",
+      "/techlinx/integrations",
+      "/techlinx/about",
+      "/techlinx/managed-services",
+      "/techlinx/contact"
+    ],
     "puppeteerArgs": [
       "--no-sandbox",
       "--disable-setuid-sandbox"
